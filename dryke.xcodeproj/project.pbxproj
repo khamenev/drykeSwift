@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FAFDE832A9A613A000DC24D /* drykeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDE822A9A613A000DC24D /* drykeApp.swift */; };
+		1FAFDE852A9A613A000DC24D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDE842A9A613A000DC24D /* ContentView.swift */; };
+		1FAFDE872A9A613C000DC24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAFDE862A9A613C000DC24D /* Assets.xcassets */; };
+		1FAFDE8A2A9A613C000DC24D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAFDE892A9A613C000DC24D /* Preview Assets.xcassets */; };
+		1FAFDE942A9A613D000DC24D /* drykeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDE932A9A613D000DC24D /* drykeTests.swift */; };
+		1FAFDE9E2A9A613D000DC24D /* drykeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDE9D2A9A613D000DC24D /* drykeUITests.swift */; };
+		1FAFDEA02A9A613D000DC24D /* drykeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDE9F2A9A613D000DC24D /* drykeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FAFDE902A9A613D000DC24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAFDE772A9A613A000DC24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAFDE7E2A9A613A000DC24D;
+			remoteInfo = dryke;
+		};
+		1FAFDE9A2A9A613D000DC24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAFDE772A9A613A000DC24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAFDE7E2A9A613A000DC24D;
+			remoteInfo = dryke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FAFDE7F2A9A613A000DC24D /* dryke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dryke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAFDE822A9A613A000DC24D /* drykeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drykeApp.swift; sourceTree = "<group>"; };
+		1FAFDE842A9A613A000DC24D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FAFDE862A9A613C000DC24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FAFDE892A9A613C000DC24D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FAFDE8F2A9A613D000DC24D /* drykeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drykeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAFDE932A9A613D000DC24D /* drykeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drykeTests.swift; sourceTree = "<group>"; };
+		1FAFDE992A9A613D000DC24D /* drykeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drykeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAFDE9D2A9A613D000DC24D /* drykeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drykeUITests.swift; sourceTree = "<group>"; };
+		1FAFDE9F2A9A613D000DC24D /* drykeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drykeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FAFDE7C2A9A613A000DC24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFDE8C2A9A613D000DC24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFDE962A9A613D000DC24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAFDE762A9A613A000DC24D = {
+			isa = PBXGroup;
+			children = (
+				1FAFDE812A9A613A000DC24D /* dryke */,
+				1FAFDE922A9A613D000DC24D /* drykeTests */,
+				1FAFDE9C2A9A613D000DC24D /* drykeUITests */,
+				1FAFDE802A9A613A000DC24D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FAFDE802A9A613A000DC24D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFDE7F2A9A613A000DC24D /* dryke.app */,
+				1FAFDE8F2A9A613D000DC24D /* drykeTests.xctest */,
+				1FAFDE992A9A613D000DC24D /* drykeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FAFDE812A9A613A000DC24D /* dryke */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFDE822A9A613A000DC24D /* drykeApp.swift */,
+				1FAFDE842A9A613A000DC24D /* ContentView.swift */,
+				1FAFDE862A9A613C000DC24D /* Assets.xcassets */,
+				1FAFDE882A9A613C000DC24D /* Preview Content */,
+			);
+			path = dryke;
+			sourceTree = "<group>";
+		};
+		1FAFDE882A9A613C000DC24D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFDE892A9A613C000DC24D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FAFDE922A9A613D000DC24D /* drykeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFDE932A9A613D000DC24D /* drykeTests.swift */,
+			);
+			path = drykeTests;
+			sourceTree = "<group>";
+		};
+		1FAFDE9C2A9A613D000DC24D /* drykeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFDE9D2A9A613D000DC24D /* drykeUITests.swift */,
+				1FAFDE9F2A9A613D000DC24D /* drykeUITestsLaunchTests.swift */,
+			);
+			path = drykeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FAFDE7E2A9A613A000DC24D /* dryke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAFDEA32A9A613D000DC24D /* Build configuration list for PBXNativeTarget "dryke" */;
+			buildPhases = (
+				1FAFDE7B2A9A613A000DC24D /* Sources */,
+				1FAFDE7C2A9A613A000DC24D /* Frameworks */,
+				1FAFDE7D2A9A613A000DC24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dryke;
+			productName = dryke;
+			productReference = 1FAFDE7F2A9A613A000DC24D /* dryke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FAFDE8E2A9A613D000DC24D /* drykeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAFDEA62A9A613D000DC24D /* Build configuration list for PBXNativeTarget "drykeTests" */;
+			buildPhases = (
+				1FAFDE8B2A9A613D000DC24D /* Sources */,
+				1FAFDE8C2A9A613D000DC24D /* Frameworks */,
+				1FAFDE8D2A9A613D000DC24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAFDE912A9A613D000DC24D /* PBXTargetDependency */,
+			);
+			name = drykeTests;
+			productName = drykeTests;
+			productReference = 1FAFDE8F2A9A613D000DC24D /* drykeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FAFDE982A9A613D000DC24D /* drykeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAFDEA92A9A613D000DC24D /* Build configuration list for PBXNativeTarget "drykeUITests" */;
+			buildPhases = (
+				1FAFDE952A9A613D000DC24D /* Sources */,
+				1FAFDE962A9A613D000DC24D /* Frameworks */,
+				1FAFDE972A9A613D000DC24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAFDE9B2A9A613D000DC24D /* PBXTargetDependency */,
+			);
+			name = drykeUITests;
+			productName = drykeUITests;
+			productReference = 1FAFDE992A9A613D000DC24D /* drykeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FAFDE772A9A613A000DC24D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1FAFDE7E2A9A613A000DC24D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1FAFDE8E2A9A613D000DC24D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1FAFDE7E2A9A613A000DC24D;
+					};
+					1FAFDE982A9A613D000DC24D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1FAFDE7E2A9A613A000DC24D;
+					};
+				};
+			};
+			buildConfigurationList = 1FAFDE7A2A9A613A000DC24D /* Build configuration list for PBXProject "dryke" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FAFDE762A9A613A000DC24D;
+			productRefGroup = 1FAFDE802A9A613A000DC24D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FAFDE7E2A9A613A000DC24D /* dryke */,
+				1FAFDE8E2A9A613D000DC24D /* drykeTests */,
+				1FAFDE982A9A613D000DC24D /* drykeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FAFDE7D2A9A613A000DC24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAFDE8A2A9A613C000DC24D /* Preview Assets.xcassets in Resources */,
+				1FAFDE872A9A613C000DC24D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFDE8D2A9A613D000DC24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFDE972A9A613D000DC24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAFDE7B2A9A613A000DC24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAFDE852A9A613A000DC24D /* ContentView.swift in Sources */,
+				1FAFDE832A9A613A000DC24D /* drykeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFDE8B2A9A613D000DC24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAFDE942A9A613D000DC24D /* drykeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFDE952A9A613D000DC24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAFDEA02A9A613D000DC24D /* drykeUITestsLaunchTests.swift in Sources */,
+				1FAFDE9E2A9A613D000DC24D /* drykeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAFDE912A9A613D000DC24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAFDE7E2A9A613A000DC24D /* dryke */;
+			targetProxy = 1FAFDE902A9A613D000DC24D /* PBXContainerItemProxy */;
+		};
+		1FAFDE9B2A9A613D000DC24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAFDE7E2A9A613A000DC24D /* dryke */;
+			targetProxy = 1FAFDE9A2A9A613D000DC24D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FAFDEA12A9A613D000DC24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FAFDEA22A9A613D000DC24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FAFDEA42A9A613D000DC24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dryke/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khamenev.dryke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FAFDEA52A9A613D000DC24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dryke/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khamenev.dryke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FAFDEA72A9A613D000DC24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khamenev.drykeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dryke.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dryke";
+			};
+			name = Debug;
+		};
+		1FAFDEA82A9A613D000DC24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khamenev.drykeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dryke.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dryke";
+			};
+			name = Release;
+		};
+		1FAFDEAA2A9A613D000DC24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khamenev.drykeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dryke;
+			};
+			name = Debug;
+		};
+		1FAFDEAB2A9A613D000DC24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khamenev.drykeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dryke;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAFDE7A2A9A613A000DC24D /* Build configuration list for PBXProject "dryke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAFDEA12A9A613D000DC24D /* Debug */,
+				1FAFDEA22A9A613D000DC24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAFDEA32A9A613D000DC24D /* Build configuration list for PBXNativeTarget "dryke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAFDEA42A9A613D000DC24D /* Debug */,
+				1FAFDEA52A9A613D000DC24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAFDEA62A9A613D000DC24D /* Build configuration list for PBXNativeTarget "drykeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAFDEA72A9A613D000DC24D /* Debug */,
+				1FAFDEA82A9A613D000DC24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAFDEA92A9A613D000DC24D /* Build configuration list for PBXNativeTarget "drykeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAFDEAA2A9A613D000DC24D /* Debug */,
+				1FAFDEAB2A9A613D000DC24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FAFDE772A9A613A000DC24D /* Project object */;
+}
