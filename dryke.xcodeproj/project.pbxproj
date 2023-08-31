@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1FAFDE832A9A613A000DC24D /* drykeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDE822A9A613A000DC24D /* drykeApp.swift */; };
-		1FAFDE852A9A613A000DC24D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDE842A9A613A000DC24D /* ContentView.swift */; };
 		1FAFDE872A9A613C000DC24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAFDE862A9A613C000DC24D /* Assets.xcassets */; };
 		1FAFDE8A2A9A613C000DC24D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAFDE892A9A613C000DC24D /* Preview Assets.xcassets */; };
 		1FAFDE942A9A613D000DC24D /* drykeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDE932A9A613D000DC24D /* drykeTests.swift */; };
 		1FAFDE9E2A9A613D000DC24D /* drykeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDE9D2A9A613D000DC24D /* drykeUITests.swift */; };
 		1FAFDEA02A9A613D000DC24D /* drykeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDE9F2A9A613D000DC24D /* drykeUITestsLaunchTests.swift */; };
+		1FAFDEB62A9A6C30000DC24D /* CoreLocationUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAFDEB52A9A6C2F000DC24D /* CoreLocationUI.framework */; };
+		1FAFDEBB2A9A74B5000DC24D /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDEBA2A9A74B5000DC24D /* ForecastViewModel.swift */; };
+		1FAFDEBD2A9A766B000DC24D /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDEBC2A9A766B000DC24D /* ForecastView.swift */; };
+		1FAFDEC12A9A7ECE000DC24D /* ForecastResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDEC02A9A7ECE000DC24D /* ForecastResponse.swift */; };
+		1FAFDEC32A9A7F80000DC24D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAFDEC22A9A7F80000DC24D /* CoreLocation.framework */; };
+		1FAFDEC52A9A8001000DC24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFDEC42A9A8001000DC24D /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		1FAFDE7F2A9A613A000DC24D /* dryke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dryke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAFDE822A9A613A000DC24D /* drykeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drykeApp.swift; sourceTree = "<group>"; };
-		1FAFDE842A9A613A000DC24D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FAFDE862A9A613C000DC24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FAFDE892A9A613C000DC24D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FAFDE8F2A9A613D000DC24D /* drykeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drykeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		1FAFDE992A9A613D000DC24D /* drykeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drykeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAFDE9D2A9A613D000DC24D /* drykeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drykeUITests.swift; sourceTree = "<group>"; };
 		1FAFDE9F2A9A613D000DC24D /* drykeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drykeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FAFDEB52A9A6C2F000DC24D /* CoreLocationUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocationUI.framework; path = System/Library/Frameworks/CoreLocationUI.framework; sourceTree = SDKROOT; };
+		1FAFDEBA2A9A74B5000DC24D /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		1FAFDEBC2A9A766B000DC24D /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		1FAFDEC02A9A7ECE000DC24D /* ForecastResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastResponse.swift; sourceTree = "<group>"; };
+		1FAFDEC22A9A7F80000DC24D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1FAFDEC42A9A8001000DC24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAFDEC32A9A7F80000DC24D /* CoreLocation.framework in Frameworks */,
+				1FAFDEB62A9A6C30000DC24D /* CoreLocationUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,7 @@
 				1FAFDE922A9A613D000DC24D /* drykeTests */,
 				1FAFDE9C2A9A613D000DC24D /* drykeUITests */,
 				1FAFDE802A9A613A000DC24D /* Products */,
+				1FAFDEB42A9A6C2F000DC24D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +107,11 @@
 		1FAFDE812A9A613A000DC24D /* dryke */ = {
 			isa = PBXGroup;
 			children = (
+				1FAFDEB72A9A7455000DC24D /* Models */,
+				1FAFDEB12A9A6B91000DC24D /* ViewModels */,
+				1FAFDEAC2A9A6B13000DC24D /* Views */,
 				1FAFDE822A9A613A000DC24D /* drykeApp.swift */,
-				1FAFDE842A9A613A000DC24D /* ContentView.swift */,
+				1FAFDEC42A9A8001000DC24D /* AppDelegate.swift */,
 				1FAFDE862A9A613C000DC24D /* Assets.xcassets */,
 				1FAFDE882A9A613C000DC24D /* Preview Content */,
 			);
@@ -125,6 +141,39 @@
 				1FAFDE9F2A9A613D000DC24D /* drykeUITestsLaunchTests.swift */,
 			);
 			path = drykeUITests;
+			sourceTree = "<group>";
+		};
+		1FAFDEAC2A9A6B13000DC24D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFDEBC2A9A766B000DC24D /* ForecastView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FAFDEB12A9A6B91000DC24D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFDEBA2A9A74B5000DC24D /* ForecastViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1FAFDEB42A9A6C2F000DC24D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFDEC22A9A7F80000DC24D /* CoreLocation.framework */,
+				1FAFDEB52A9A6C2F000DC24D /* CoreLocationUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FAFDEB72A9A7455000DC24D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFDEC02A9A7ECE000DC24D /* ForecastResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FAFDE852A9A613A000DC24D /* ContentView.swift in Sources */,
+				1FAFDEC12A9A7ECE000DC24D /* ForecastResponse.swift in Sources */,
 				1FAFDE832A9A613A000DC24D /* drykeApp.swift in Sources */,
+				1FAFDEBD2A9A766B000DC24D /* ForecastView.swift in Sources */,
+				1FAFDEC52A9A8001000DC24D /* AppDelegate.swift in Sources */,
+				1FAFDEBB2A9A74B5000DC24D /* ForecastViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +471,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"dryke/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide drying recommendations";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +500,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"dryke/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide drying recommendations";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

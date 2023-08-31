@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SwiftUIView.swift
 //  dryke
 //
 //  Created by Sergey Khamenev on 26/08/2023.
@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = DryOrNotViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            RecommendationView(viewModel: viewModel)
+                .navigationTitle("Dry or Not")
         }
-        .padding()
     }
 }
 

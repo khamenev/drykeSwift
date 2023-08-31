@@ -8,10 +8,14 @@
 import SwiftUI
 
 @main
-struct drykeApp: App {
+struct DrykeApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @StateObject var forecastViewModel = ForecastViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ForecastView(viewModel: forecastViewModel)
         }
     }
 }
